@@ -1,0 +1,11 @@
+enum class Category {
+    OTHER,
+    FOOD,
+    TRANSPORTATION,
+    HOUSING,
+    UTILITIES,
+    ENTERTAINMENT,
+    HEALTHCARE,
+    SHOPPING,
+    INCOME
+}

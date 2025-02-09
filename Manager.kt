@@ -1,8 +1,7 @@
-class Manager(
-    val account: Account,
-    val transaction: Transaction,
-    val budget = Int
-) {
+class Manager(){
+    lateinit var account: Account
+    lateinit var transaction: Transaction
+    var budget: Int = 0
     fun addAccount(account: Account) {}
     fun setBudget(category: Category, amount: Double){}
     fun getExpenseByCategory(category: Category){}

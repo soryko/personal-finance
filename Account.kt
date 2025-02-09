@@ -6,8 +6,7 @@ class Account(val name : String,
         val amount = transaction.amount
         balance += if  (transaction.getType() == TransactionType.INCOME) amount else -amount
     }
-}
-fun getName(){ return name}
-fun getAccountNumber(){ return accountNumber }
-fun getBalance(){ return balance }
+    fun getName(){ return name }
+    fun getAccountNumber(){ return accountNumber }
+    fun getBalance(){ return balance }
 }
