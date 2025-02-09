@@ -11,4 +11,8 @@ class Transaction(
     val id: UUID = UUID.randomUUID()
     val date: LocalDateTime = LocalDateTime.now()
 
+    init {
+        println("Creating a new transaction")
+        println("Amount: $amount\n\tCategory: $category\n\tType: $type\n\tAccount: $account")
+    }
 }
